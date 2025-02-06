@@ -1,0 +1,5 @@
+day 1 : 06/02/2025
+
+    learn       :  html,css basic tags
+    implement   :  used structure tags,content tags etc..
+    challenges  :  using git as a beginner
