@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .project {
+            margin: 40px 0; 
+            padding: 20px;
+            border: 2px solid #4caf50; 
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .quote-box {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 400px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Projects</h1>
+
+    <div class="project">
+        <h2>Random Quote Generator</h2>
+        <p>This project generates random motivational quotes at the click of a button. It demonstrates the use of JavaScript for dynamic content manipulation. Users can refresh quotes to stay inspired!</p>
+        <div class="quote-box">
+            <p id="quote">Click the button to see a quote!</p>
+        </div>
+        <button onclick="generateQuote()">New Quote</button>
+        <script>
+            const quotes = [
+                "The only limit to our realization of tomorrow is our doubts of today.",
+                "Life is 10% what happens to us and 90% how we react to it.",
+                "Your time is limited, don't waste it living someone else's life.",
+                "Be yourself; everyone else is already taken.",
+                "Success is not the key to happiness. Happiness is the key to success."
+            ];
+
+            function generateQuote() {
+                const randomIndex = Math.floor(Math.random() * quotes.length);
+                document.getElementById("quote").textContent = quotes[randomIndex];
+            }
+        </script>
+    </div>
+
+    <div class="project">
+        <h2>A Study on Dark Matter</h2>
+        <p>Explored the mysterious concept of dark matter, which makes up 27% of the universe but emits no light. Conducted a research-based study on its properties, significance in astrophysics, and its role in galaxy formation. Presented findings through a simplified interactive webpage to make this complex topic accessible to all.</p>
+    </div>
+</body>
+
+</html>

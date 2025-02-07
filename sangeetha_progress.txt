@@ -3,3 +3,9 @@ day 1 : 06/02/2025
     learn       :  html,css basic tags
     implement   :  used structure tags,content tags,section styling etc..
     challenges  :  using git as a beginner
+
+day 2 : 07/02/2025
+
+    learn       :  study new things in css
+    implement   :  used more tags and used basic Javascript in project
+    challenges  :  finding required tags in html

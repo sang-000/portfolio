@@ -1,0 +1,14 @@
+#about-me {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#about-me h2 {
+    color: #4caf50;
+}
+
+#about-me h4 {
+    max-width: 600px;
+    margin: 0 auto;
+}
